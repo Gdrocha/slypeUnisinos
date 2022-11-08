@@ -19,6 +19,7 @@
     
 # Default Data creation
    Run the following queries in your SQL editor:
+    
     _____________________________________________________________________________________
     
     INSERT INTO tb_agent (name, email, password, updated_at, created_at)
