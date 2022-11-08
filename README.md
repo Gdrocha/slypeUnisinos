@@ -23,5 +23,5 @@
     
     INSERT INTO tb_agent (name, email, password, updated_at, created_at)
     VALUES  ('Gabriel da Rocha', 'gdrocha@unisinos.br', '1234', now(), now()),
-            ('Vinicius Bischoff', 'viniciusbischof@unisinos.br', '1234', now(), now()),
+            ('Vinicius Bischoff', 'viniciusbischof@unisinos.br', '1234', now(), now())
     _____________________________________________________________________________________
