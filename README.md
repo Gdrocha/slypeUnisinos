@@ -4,7 +4,6 @@
 - Create a ticket;
 - Create a customer;
 - Create a agent;
-- Create email integration;
 - Create dynamic and custom ticket fields.
    
 # Default access
