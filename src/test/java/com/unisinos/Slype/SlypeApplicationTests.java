@@ -1,10 +1,10 @@
-package com.unisinos.Sprint;
+package com.unisinos.Slype;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SprintApplicationTests {
+class SlypeApplicationTests {
 
 	@Test
 	void contextLoads() {
