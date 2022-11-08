@@ -4,7 +4,6 @@
 - Create a ticket;
 - Create a customer;
 - Create a agent;
-- Create dynamic and custom ticket fields.
    
 # Default access
     user: admin@slype.com
