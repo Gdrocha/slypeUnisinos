@@ -1,2 +1,1 @@
-# slypeUnisinos
-Slype Unisinos
+# SLYPE
