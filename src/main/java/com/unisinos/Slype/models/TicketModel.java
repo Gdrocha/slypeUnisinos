@@ -26,4 +26,25 @@ public class TicketModel extends Model implements Serializable {
     @Enumerated
     @Column(name = "status", nullable = false)
     private TicketStatus status;
+
+    private String description;
+
+    public TicketModel(AgentModel agent, CustomerModel customer, LocalDateTime expirationTime, TicketStatus status, String description) {
+        this.agent = agent;
+        this.customer = customer;
+        this.expirationTime = expirationTime;
+        this.status = status;
+        this.description = description;
+    }
+
+    public TicketModel(AgentModel agent, CustomerModel customer, String description) {
+        this.agent = agent;
+        this.customer = customer;
+        this.status = TicketStatus.OPEN;
+        this.expirationTime = LocalDateTime.now().plusDays(10);
+        this.description = description;
+    }
+
+    public TicketModel() {
+    }
 }
