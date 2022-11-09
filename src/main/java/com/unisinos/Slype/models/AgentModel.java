@@ -15,6 +15,7 @@ public class AgentModel extends UserModel {
 
     public AgentModel(String email, String name, String password) {
         super(email, name, password);
+        this.groups = "Default";
     }
 
     public AgentModel(String email) {
